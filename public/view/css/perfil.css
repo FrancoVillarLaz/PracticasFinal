@@ -1,0 +1,38 @@
+
+html{
+  scroll-behavior: smooth;
+}
+:root{
+  color-scheme: light dark;
+}
+
+  *{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    text-transform:capitalize;
+    text-shadow: 0px 0px 10px 3px #1F271B; 
+    color: #1F271B;
+
+}
+body{
+
+background-color:#073c78 ;
+}
+
+a{
+  text-transform:capitalize;
+}
+.formulario-de-inicio-de-sesion{
+margin: 0 auto ;
+}
+.div-principal{
+box-shadow: 0px 0px 6px 3px rgba(0,0,0,1);  margin:  0 auto;
+  padding: 15px;
+ background: rgba(43, 192, 226, 0.477);
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 400px ;
+  height: 500px ;
+}

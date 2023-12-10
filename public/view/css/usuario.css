@@ -1,0 +1,36 @@
+#usuario{
+    text-align: center;
+    font-family: Arial;
+}
+
+#imagem{
+    float: left;
+    width: 27%;
+}
+
+#icone{
+    height: 2%;
+    width: 2%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+}
+
+#conteudo{
+    float: right;
+    width: 73%;
+    font-family: arial;
+}
+
+li{
+    padding:10px;
+}
+
+fieldset{
+	margin: 0px auto;
+	width: 70%;
+	padding: 20px;
+}
