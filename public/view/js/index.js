@@ -5,7 +5,7 @@ var total = 0;
 function comprar() {
 	var producto = document.getElementById('nombre').textContent; 
 	var precioTexto = document.getElementById('precio').textContent; 
-	
+	console.log("prueba")
 	var precio = parseInt(precioTexto.replace('$', '').replace(',', ''), 10); 
 	
 	if (!isNaN(precio)) {

@@ -39,6 +39,10 @@
             <li class="nav-item">
               <a class="nav-link" href="/public/controller/registro_controller.php">login</a>
             </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/public/view/html/foro.html">Foro</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="/public/controller/crearjuego_controller.php">Agregar juego</a>
             </li>

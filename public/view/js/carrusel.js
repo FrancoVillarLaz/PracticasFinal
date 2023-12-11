@@ -1,9 +1,9 @@
 
 let images = [
-    "/public/view/img/carrusel/brujo.jpg",
-    "/public/view/img/carrusel/cyberpunk4k.jpg",
-    "/public/view/img/carrusel/dias.jpg",
-    "/public/view/img/carrusel/kratos4k.jpg"
+    "localhost/public/view/img/carrusel/brujo.jpg",
+    "localhost/public/view/img/carrusel/cyberpunk4k.jpg",
+    "localhost/public/view/img/carrusel/dias.jpg",
+    "localhost/public/view/img/carrusel/kratos4k.jpg"
   ];
   
   let juegos = [
@@ -50,6 +50,7 @@ let images = [
       num = 0;
     }
     cambiarImagenYTexto();
+
   }
   
   function anterior() {

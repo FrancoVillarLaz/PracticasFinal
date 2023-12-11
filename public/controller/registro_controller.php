@@ -11,12 +11,14 @@
     }    
     public function registrar(){
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $registro = new registro();
+            // $registro = new registro($this->conexion);
             $nombre = $_POST['nombre'];
             $correo = $_POST['correo'];
             $contraseña = $_POST['contraseña'];
-
-            $registro->registrarUsuario($nombre, $correo, $contraseña);
+            
+            
+            $this->conexion->crearUsuario($nombre, $correo, $contraseña);
+            // $registro->registrarUsuario($nombre, $correo, $contraseña);
 
         }
     }

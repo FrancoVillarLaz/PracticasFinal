@@ -51,6 +51,17 @@ class Conectar {
         
     }
     public function crearUsuario($nombre, $correo, $contraseña){
+        if ($nombre && $correo && $contraseña) {
+            // Verificar si el correo está registrado
+            $consulta = $this->conexion->prepare("SELECT * FROM usuarios WHERE correo=?");
+            $consulta->bind_param("s", $correo);
+            $consulta->execute();
+
+            $resultadoCheck = $consulta->get_result();
+
+            if ($resultadoCheck->num_rows > 0) {
+                echo "El correo ya está registrado. Por favor, elige otro correo.";
+            } else {
                 // Insertar datos en la base de datos
                 $hashed_password = password_hash($contraseña, PASSWORD_DEFAULT);
                 $consulta = $this->conexion->prepare("INSERT INTO usuarios (nombre, correo, contraseña) VALUES (?, ?, ?)");
@@ -62,8 +73,40 @@ class Conectar {
                     echo "Error al registrar el usuario. Por favor, inténtalo de nuevo.";
                 }
     
-                $consulta->close();
+            }
+
+            $consulta->close();
+        } else {
+            echo "Por favor, completa todos los campos del formulario.";
+        }
+                
+    }
+    public function crearComentario($nombre, $comentario) {
+        $consulta = $this->conexion->prepare('INSERT INTO comentarios (nombre, comentario) VALUES (?, ?)');
+        $consulta->bind_param('ss', $nombre, $comentario);
+        $consulta->execute();
+        
+        if ($consulta->execute()) {
+            echo json_encode('comentario guardado correctamente');
+        } else {
+            echo json_encode('error al guardar el comentario');
+        }
     }
     
+    public function mostrarComentario() {
+        $consulta = $this->conexion->prepare('SELECT * FROM comentarios');
+        $consulta->execute();
+        $resultadoCheck = $consulta->get_result();
+    
+        if ($resultadoCheck->num_rows >= 1) {
+            $filas = array();
+            while ($fila = $resultadoCheck->fetch_assoc()) {
+                $filas[] = $fila;
+            }
+            echo json_encode($filas);
+        } else {
+            echo json_encode('ningun comentario encontrado');
+        }
+    }
 }
 ?>

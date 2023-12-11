@@ -21,7 +21,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     }elseif($controller === 'actualizarPerfil'){
 
     }elseif($controller === 'foro'){
-
+        require_once(__DIR__."/controller/comentarios_controller.php");
+        $CrearComentarios= new foro($conexion);
+        $CrearComentarios->crearComentarioController();
+        
     }else{
         die("error no existe controlador");
     }

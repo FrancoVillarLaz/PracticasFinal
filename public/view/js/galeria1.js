@@ -1,6 +1,6 @@
 const image=document.querySelectorAll('.galeria');
 for (let[i,imageSelected] of image.entries()) {
-  imageSelected.addEventListener('click',function focus(){
+  imageSelected.addEventListener('mouseover',function focus(){
     resetFocus();
   imageSelected.classList.toggle('active');
   })

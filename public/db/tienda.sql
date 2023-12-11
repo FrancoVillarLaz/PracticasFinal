@@ -11,6 +11,15 @@ CREATE TABLE IF NOT EXISTS usuarios (
     correo VARCHAR(50) NOT NULL,
     contraseña VARCHAR(255) NOT NULL
 );
+-- Crear la tabla de comentarios
+CREATE TABLE IF NOT EXISTS comentarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    -- juego VARCHAR(50),
+    comentario VARCHAR(255) NOT NULL,
+    -- FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
+);
+
 -- Crear la tabla de juegos
 
 CREATE TABLE IF NOT EXISTS juego(
@@ -26,4 +35,3 @@ CREATE TABLE IF NOT EXISTS juego(
 );
 
 
-);
