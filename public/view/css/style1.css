@@ -356,6 +356,7 @@ svg:hover {
   opacity: 0.8;
   background-color: transparent;
 }
+
 .tienda {
   display: flex;
   margin-top: 0px;
@@ -440,19 +441,9 @@ body {
   border: none;
   border-radius: 4px;
   margin-top: 220px;
-  
-}
+  }
 /* Galeria de imagenes */
-.body{
-  display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    height: 100vh;
-    font-family: 'Quicksand', sans-serif;
-    transition: all 0.5s;
-}
+
 .galeria{
   position: relative;
   overflow: hidden;
@@ -472,7 +463,6 @@ body {
   border-radius: 25px;
   background-size: auto 100%;
   transition: all 0.5s;
-  
 }
 
 .galeria .imagen{
@@ -569,11 +559,11 @@ body {
   text-decoration: none;
 } 
 
-.galeria .credit{
+.galeria{
   left: 20px;
 }
 
-.galeria .credit {
+.galeria{
   right: 20px;
 }
 

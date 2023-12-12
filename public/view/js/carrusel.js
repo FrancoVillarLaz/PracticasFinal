@@ -5,8 +5,9 @@ let images = [
     "localhost/public/view/img/carrusel/dias.jpg",
     "localhost/public/view/img/carrusel/kratos4k.jpg"
   ];
+ 
   
-  let juegos = [
+ let juegos = [
     "The Witcher",
     "Cyberpunk",
     "Days Gone",
@@ -32,9 +33,7 @@ let images = [
     sinop.css('transform', 'translateX(-5%)');
 
     setTimeout(() => {
-      carrusel.attr("src",images[num]);
-      console.log("Ruta de la imagen:", images[num]);
-
+      carrusel.attr("src", images[num]);
       carrusel.css('transform', 'translateX(0)');
       sinop.css('transform', 'translateX(0)');
 
@@ -50,7 +49,6 @@ let images = [
       num = 0;
     }
     cambiarImagenYTexto();
-
   }
   
   function anterior() {
@@ -76,10 +74,6 @@ function mostrar() {
 
 
   }
-  
-  
-  
-  
   
   
   

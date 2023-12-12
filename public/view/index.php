@@ -8,15 +8,18 @@
     <!-- Bootstrap --> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
    
-  <!-- Jquery -->
-
-
-  <link rel="stylesheet" href="/public/view/css/style1.css">
+  <!-- Jquery -->  
    <script src="/public/view/js/jquery-3.7.1.js"></script>
+   
    <script src="/public/view/js/index.js"></script>
+   
    <script src="/public/view/js/carrusel.js"></script>
-   <!-- <script src="/public/view/js/galeria.js"></script> -->
-  <script src="/public/view/js/galeria1.js"></script>
+  
+   <link rel="stylesheet" href="/public/view/css/style1.css">
+
+  </link>
+
+  
     <title>Cyber</title>
   </head>
   
@@ -119,6 +122,7 @@
                         </div>
                     </div>
                 </div>
+                
                   <div class="col">
                     <div class="row g-0 ">
                       <h2 class="title">PS-PLUS</h2>
@@ -184,7 +188,7 @@
             </div>
 
               <div class="galeria">
-                <div class="imagen" style="background-image: url(/public/view/img/juegos/fifa/23.jpg);">
+                <div class="imagen" style="background-image: url(/public/view/img/juegos/fifa\ 23.jpg);">
                   <p class="imagen-precio">100</p>
                   <button class="imagen-boton">Comprar</button>
                 </div>
@@ -260,12 +264,9 @@
     </div>
 
     
-   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
-  
-
-
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> 
+<script src="/public/view/js/galeria.js"></script>
 
 </body>
 </html>

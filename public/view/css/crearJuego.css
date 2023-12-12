@@ -14,19 +14,72 @@ form {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 h2 {
-    text-align: center;
     color: #333;
+    text-shadow: 3px 4px 10px #512da8;
+    transition: all 0.1s;
+ 
+text-align: center;
 }
 
 label {
     display: block;
     margin-bottom: 8px;
     color: #555;
+    border: 2px solid;
+    color: #512da8;
+    border-radius: 1.5em;
+    width: 120px;
+   margin-bottom: 10px;
+}
+.nombre{
+    margin-bottom: 20px;
+}
+.input-nombre{
+      
+    border: 3px solid darkblue;
+    border-radius: 1em;
+    margin-top: 10px;
+
+}
+.imagen{
+    margin-bottom: 20px;
+    margin-top: 10px;
+
 }
 
+.input-imagen{
+      
+    border: 3px solid darkblue;
+    border-radius: 1em;
+    margin-top: 10px;
+}
+.wallpaper{
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.input-wallpaper{
+      
+    border: 3px solid darkblue;
+    border-radius: 1em;
+    margin-top: 10px;
+
+}
+.sinopsis{
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+.textarea-sinopsis{
+    
+    border: 3px solid darkblue;
+    border-radius: 1em;
+}
 input,
 textarea {
     width: 100%;
@@ -46,4 +99,3 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
-

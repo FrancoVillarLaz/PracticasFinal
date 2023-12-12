@@ -90,22 +90,22 @@
 
 <form action="/public/index.php" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="controller" value="crearJuego">
-    <label for="nombre">Nombre:</label>
-    <input type="text" name="nombre" required>
+    <label class="nombre" for="nombre"> Nombre:</label>
+    <input class="input-nombre" type="text" name="nombre" required>
 
-    <label for="imagen">Imagen:</label>
-    <input type="file" name="imagen" accept="image/*" required>
+    <label class="imagen" for="imagen"> Imagen:</label>
+    <input class="input-imagen" type="file" name="imagen" accept="image/*" required>
 
-    <label for="wallpaper">Wallpaper:</label>
-    <input type="file" name="wallpaper" accept="image/*" required>
+    <label class="wallpaper" for="wallpaper"> Wallpaper:</label>
+    <input class="input-wallpaper" type="file" name="wallpaper" accept="image/*" required>
 
-    <label for="sinopsis">Sinopsis:</label>
-    <textarea name="sinopsis" rows="4" required></textarea>
+    <label class="sinopsis" for="sinopsis"> Sinopsis:</label>
+    <textarea class="textarea-sinopsis" name="sinopsis" rows="4" required></textarea>
 
-    <label for="precio">Precio:</label>
+    <label  for="precio"> Precio:</label>
     <input type="number" name="precio" step="0.01" required>
 
-    <label for="categoria">Categoría:</label>
+    <label for="categoria"> Categoría:</label>
     <input type="text" name="categoria" required>
 
     <input type="submit" value="Guardar">
