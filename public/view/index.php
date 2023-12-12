@@ -1,5 +1,5 @@
 
-<!doctype html>
+<!Doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -47,7 +47,7 @@
               <a class="nav-link" href="/public/controller/crearjuego_controller.php">Agregar juego</a>
             </li>
             
-            <!-- <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Categorias
               </a>
@@ -55,7 +55,7 @@
                 <li><a class="dropdown-item drophover text-light bg-dark" href="#">Accion</a></li>
                 <li><a class="dropdown-item drophover text-light bg-dark" href="#">Historia</a></li>
                 <li><a class="dropdown-item drophover text-light bg-dark" href="#">Deporte</a></li>
-              </ul> -->
+              </ul> 
             </li> 
           </ul>
           <ul class="navbar-nav ms-auto">
@@ -184,7 +184,7 @@
             </div>
 
               <div class="galeria">
-                <div class="imagen" style="background-image: url(/public/view/img/juegos/fifa\ 23.jpg);">
+                <div class="imagen" style="background-image: url(/public/view/img/juegos/fifa/23.jpg);">
                   <p class="imagen-precio">100</p>
                   <button class="imagen-boton">Comprar</button>
                 </div>
