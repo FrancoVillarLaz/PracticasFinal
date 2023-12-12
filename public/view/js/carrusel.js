@@ -1,9 +1,9 @@
 
 let images = [
-    "localhost/public/view/img/carrusel/brujo.jpg",
-    "localhost/public/view/img/carrusel/cyberpunk4k.jpg",
-    "localhost/public/view/img/carrusel/dias.jpg",
-    "localhost/public/view/img/carrusel/kratos4k.jpg"
+    "http://localhost:3000//public/view/img/carrusel/brujo.jpg",
+    "http://localhost:3000//public/view/img/carrusel/cyberpunk4k.jpg",
+    "http://localhost:3000//public/view/img/carrusel/dias.jpg",
+    "http://localhost:3000//public/view/img/carrusel/kratos4k.jpg"
   ];
  
   
