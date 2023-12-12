@@ -568,85 +568,75 @@ body {
 }
 
 /* Contacto */
-footer{
-  background-color: #0040c1;
-margin-left: 200px;
+
+footer {
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  padding: 20px;
 }
 
 .contact {
-  background-color: #0040c1;
-
-  padding: 20px 100px;
-  /* padding: 20px 100px; */
-  position: absolute;
-  left: -20%;
-  top: -20%;
-  width: 100px;
-  min-height: 50vh;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  padding: 20px;
   display: flex;
-  /* justify-content: space-around;
-  align-items: center; */
-  z-index: 999;
 }
-.contact img {
-  background-color: #0040c1;
 
+.contact img {
   object-fit: cover;
   border-radius: 10px;
-  width: 600px;
-  height: 500px;
-  margin-left: 420px;
+  width: 50%; /* Ocupar la mitad del ancho */
+  max-width: 600px;
+  height: auto;
+  margin-right: 20px; /* Espacio entre la imagen y el formulario */
 }
 
 .contact .form {
-  width: 50%;
-  margin: 30px;
+  width: 50%; /* Ocupar la mitad del ancho */
+  max-width: 600px;
 }
+
 .contact .form h1 {
   color: #fff;
+  text-align: center;
 }
+
 .contact .form .inputBx {
   margin: 10px 0;
-  
 }
+
 .contact .form .inputBx p {
   color: #fff;
-
 }
+
 .contact .form .inputBx input,
-.contact .form .inputBx textarea{
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #1b2141;
-    min-height: 15px;
-    font-size: 1.1em;
-    width: 360px;
- height: 150px;   
- resize: none;
+.contact .form .inputBx textarea {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #1b2141;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
-.contact .form .inputBx input{
-height: 35px;
-}
-.contact .form .inputBx input[type="submit"]{
-display: inline-block;
-padding: 10px 20px;
-margin: 15px 0;
-outline: none;
-background: transparent;
-border: 1px solid #512da8;
-text-decoration: none;
-font-weight: 700;
-width: 150px;
-border-radius: 5px;
-color: #fff;
-letter-spacing: 1px;
-height: 50px;
 
+.contact .form .inputBx input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 15px 0;
+  outline: none;
+  background: transparent;
+  border: 1px solid #512da8;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 1px;
 }
-.contact .form .inputBx input[type="submit"]:hover{
-background: #512da8;
-border: none;
-color: #fff;
-box-shadow: 0 0 10px #512da8;
+
+.contact .form .inputBx input[type="submit"]:hover {
+  background: #512da8;
+  border: none;
+  color: #fff;
+  box-shadow: 0 0 10px #512da8;
 }
