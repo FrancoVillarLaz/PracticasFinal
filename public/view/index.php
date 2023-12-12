@@ -15,7 +15,7 @@
    
    <script src="/public/view/js/carrusel.js"></script>
   
-   <link rel="stylesheet" href="/public/view/css/style1.css">
+   <link rel="stylesheet" href="http://localhost:3000//public/view/css/style1.css">
 
   </link>
 
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                   <div class="col">
                     <div class="row g-0 ">
                       <h2 class="title">PS-PLUS</h2>
@@ -169,38 +169,38 @@
           
           
           <div class="galeria">
-                <div class="imagen active" style="background-image: url(/public/view/img/juegos/batman.jpg);">
+                <div class="imagen active" style="background-image: url(http://localhost:3000//public/view/img/juegos/batman.jpg);">
                 <p class="imagen-precio">100</p>
                 <button class="imagen-boton">Comprar</button>
                 </div>
-                <div class="imagen" style="background-image: url(/public/view/img/juegos/death.jpg);">
+                <div class="imagen" style="background-image: url(http://localhost:3000//public/view/img/juegos/death.jpg);">
                <p class="imagen-precio">100</p>
                <button class="imagen-boton">Comprar</button>
                 </div>
-              <div class="imagen" style="background-image: url(/public/view/img/juegos/dios.jpg);">
+              <div class="imagen" style="background-image: url(http://localhost:3000//public/view/img/juegos/dios.jpg);">
                 <p class="imagen-precio">100</p>
                 <button class="imagen-boton">Comprar</button>
               </div>  
-              <div class="imagen" style="background-image: url(/public/view/img/juegos/fc24.png);">
+              <div class="imagen" style="background-image: url(http://localhost:3000//public/view/img/juegos/fc24.png);">
                 <p class="imagen-precio">100</p>
                 <button class="imagen-boton">Comprar</button>
               </div>
             </div>
 
               <div class="galeria">
-                <div class="imagen" style="background-image: url(/public/view/img/juegos/fifa\ 23.jpg);">
+                <div class="imagen" style="background-image: url(http://localhost:3000//public/view/img/juegos/fifa\ 23.jpg);">
                   <p class="imagen-precio">100</p>
                   <button class="imagen-boton">Comprar</button>
                 </div>
-                <div class="imagen" style="background-image: url(/public/view/img/juegos/forza.jpg);">
+                <div class="imagen" style="background-image: url(http://localhost:3000//public/view/img/juegos/forza.jpg);">
                   <p class="imagen-precio">100</p>
                   <button class="imagen-boton">Comprar</button>
                 </div>
-                <div class="imagen" style="background-image: url(/public/view/img/juegos/nba2.jpg);">
+                <div class="imagen" style="background-image: url(http://localhost:3000//public/view/img/juegos/nba2.jpg);">
                   <p class="imagen-precio">100</p>
                   <button class="imagen-boton">Comprar</button>
                 </div>
-                <div class="imagen" style="background-image: url(/public/view/img/juegos/residencia.jpg);">
+                <div class="imagen" style="background-image: url(http://localhost:3000//public//view/img/juegos/residencia.jpg);">
                   <p class="imagen-precio">100</p>
                   <button class="imagen-boton"> Comprar</button>
                 </div>
@@ -209,7 +209,7 @@
           
           <div class="galeriaCel">
           
-            <img src="/public/view/img/juegos/asesino.jpg" alt="">
+            <img src="http://localhost:3000//public/view/img/juegos/asesino.jpg" alt="">
             
           </div>
         </section>
@@ -226,7 +226,7 @@
 
           <footer>
             <div class="contact">
-              <img src="/public/view/img/contacto/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg" alt="">
+              <img src="http://localhost:3000//public/view/img/contacto/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg" alt="">
              <div class="form">
               <h1>Contacto</h1>
               
