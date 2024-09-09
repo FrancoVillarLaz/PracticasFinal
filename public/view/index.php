@@ -17,8 +17,6 @@
   
    <link rel="stylesheet" href="http://localhost:3000//public/view/css/style1.css">
 
-  </link>
-
   
     <title>Cyber</title>
   </head>

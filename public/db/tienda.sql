@@ -15,9 +15,9 @@ CREATE TABLE IF NOT EXISTS usuarios (
 CREATE TABLE IF NOT EXISTS comentarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL,
-    -- juego VARCHAR(50),
+    juego VARCHAR(50),
     comentario VARCHAR(255) NOT NULL,
-    -- FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
+    FOREIGN KEY usuarios(id) REFERENCES usuarios(id)
 );
 
 -- Crear la tabla de juegos
